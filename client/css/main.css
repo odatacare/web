@@ -27,11 +27,25 @@
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 }
     
+a:hover,
+a:visited {
+    text-decoration: none;
+}
+    
 .raised:active {
     box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
     transition-delay: 0s;
 }
 
 .contribute-section-text {
+
+}
+
+.methods-section {
+    min-height: 100px;
+    padding: 5px;
+}
+
+.methods-section-text {
 
 }

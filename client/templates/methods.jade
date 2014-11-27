@@ -11,9 +11,10 @@ template(name="methods")
 
       .col-md-4
         h4 Tools we like
-          ul
-            each tools
-              li
-                a(href = link, target="_blank") #{name}
+          each tools
+            .methods-section.raised
+              a(href = link, target="_blank")
+                h5 #{name}
+                .methods-section-text #{text}
 
       .col-md-4
